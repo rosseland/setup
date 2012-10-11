@@ -1,0 +1,5 @@
+Host *
+  ForwardAgent yes
+  HashKnownHosts no
+  TCPKeepAlive no 
+  ServerAliveInterval 15 

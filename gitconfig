@@ -1,3 +1,6 @@
 [user]
 	name = auduny
 	email = audun@ytterdal.net
+
+[color]
+    ui=auto

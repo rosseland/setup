@@ -4,6 +4,11 @@ alias ls="ls -G"
 if [ -f /opt/local/etc/bash_completion ]; then
       . /opt/local/etc/bash_completion
 fi
-. ~/src/arcanist/resources/shell/bash-completion
+
+if [ -f $HOME/src/arcanist/resources/shell/bash-completion ]; then
+    . $HOME/src/arcanist/resources/shell/bash-completion
+fi
+
+
 export EDITOR=vim
 export LANG=en_US.UTF-8

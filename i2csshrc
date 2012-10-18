@@ -1,0 +1,12 @@
+version: 2
+clusters:
+  varnish:
+    hosts:
+      - quinn.int.vgnett.no
+      - dexter.int.vgnett.no
+      - masuka.int.vgnett.no
+      - laguerta.int.vgnett.no
+      - debra.int.vgnett.no
+      - m323-varnish-01.int.vgnett.no
+      - m323-varnish-02.int.vgnett.no
+      - doakes.int.vgnett.no

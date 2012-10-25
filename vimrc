@@ -10,6 +10,7 @@ set foldmethod=marker
 " Needed for Syntax Highlighting and stuff
 filetype on
 filetype plugin on
+filetype indent on
 set ofu=syntaxcomplete#Complete
 
 syntax enable

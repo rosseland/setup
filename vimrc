@@ -48,4 +48,5 @@ set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
 au BufRead,BufNewFile Capfile set filetype=ruby
 au BufRead,BufNewFile profile set filetype=sh
 highlight Pmenu ctermbg=238 gui=bold
+highlight PmenuSel ctermbg=900 gui=bold
 

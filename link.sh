@@ -16,4 +16,5 @@ ln -si ../$REL/ssh/config $HOME/.ssh/config
 mkdir $HOME/bin
 ln -si $REL/bin/irssi-notify-osx $HOME/bin/irssi-notify-osx
 ln -si $REL/bin/irssi-notify-gnome $HOME/bin/irssi-notify-gnome
+ln -si $REL/bin/diffwrap.sh $HOME/bin/diffwrap.sh
 

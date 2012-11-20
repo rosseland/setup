@@ -1,7 +1,7 @@
 #!/bin/bash
  
 REL=$(pwd |perl -p -e "s|$HOME/||g")
-
+PWD=$(pwd)
 
 ln -si $REL/profile $HOME/.profile
 ln -si $REL/vimrc $HOME/.vimrc
@@ -14,7 +14,7 @@ ln -si $REL/i2csshrc $HOME/.i2csshrc
 
 ln -si ../$REL/ssh/config $HOME/.ssh/config
 mkdir $HOME/bin
-ln -si $REL/bin/irssi-notify-osx $HOME/bin/irssi-notify-osx
-ln -si $REL/bin/irssi-notify-gnome $HOME/bin/irssi-notify-gnome
-ln -si $REL/bin/diffwrap.sh $HOME/bin/diffwrap.sh
+ln -si $PWD/bin/irssi-notify-osx $HOME/bin/irssi-notify-osx
+ln -si $PWD/bin/irssi-notify-gnome $HOME/bin/irssi-notify-gnome
+ln -si $PWD/bin/diffwrap.sh $HOME/bin/diffwrap.sh
 

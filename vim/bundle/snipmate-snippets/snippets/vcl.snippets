@@ -1,0 +1,26 @@
+snippet backend
+	backend ${1:name} {
+		.host = "${2:127.0.0.1}";
+		.port = "${3:80}";
+	}
+
+snippet director
+	director ${1:name} ${2:client} {
+		{
+			.backend = ${3:name}
+			.weight = 1;
+		}
+
+snippet .probe	
+	.probe = {
+		.request =
+			"GET /ping HTTP/1.1"
+			"Host: dp-app.vg.no"
+			"Connection: close"
+			"User-Agent: Varnish-status-check 1.0";
+		.timeout = 200 ms;
+		.interval = 1s;
+		.window = 10;
+		.threshold = 8;
+	}
+		

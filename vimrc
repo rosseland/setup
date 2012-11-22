@@ -8,13 +8,21 @@ filetype plugin on
 filetype indent on
 set ofu=syntaxcomplete#Complete
 syntax enable
+set bg=dark
+colorscheme railscast
+
+
+set history=1000         " remember more commands and search history
+set undolevels=1000      " use many muchos levels of undo
+set nobackup
+set noswapfile
 
 " Who doesn't like autoindent?
 set autoindent
 " Spaces are better than a tab character
+set title
 set expandtab
 set smarttab
-set bg=dark
 " Who wants an 8 character tab?  Not me!
 set shiftwidth=4
 set softtabstop=4

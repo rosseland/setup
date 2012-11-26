@@ -3,7 +3,7 @@ export PS1="\[\e[1;33m\]\u\[\e[1;0m\]@\[\e[1;32m\]\h\[\e[1;0m\]:\w$ "
 
 
 
-if [ $(uname) == "darwin" ]; then
+if [ $(uname) == "Darwin" ]; then
     alias ls="ls -Gp"
     if [ -f /opt/local/etc/bash_completion ]; then
        . /opt/local/etc/bash_completion

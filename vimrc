@@ -1,8 +1,8 @@
-
 call pathogen#infect()
 call pathogen#helptags()
 " Necesary  for lots of cool vim things
 set nocompatible
+set ignorecase
 filetype on
 filetype plugin on
 filetype indent on
